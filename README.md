@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+## Project installation
+
+1. download or clone project
+2. Go to the folder application using cd
+3. Run composer install on your cmd or terminal
+4. Copy .env.example file to .env on root folder. 
+    You can type copy .env.example .env if using command prompt Windows 
+     or cp .env.example .env if using terminal Ubuntu
+5. Open your .env file and change the database name (projeta_dev)
+7. Run php artisan key:generate
+7. Run php artisan migrate
+8.Run php artisan serve 
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
