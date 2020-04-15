@@ -19,8 +19,8 @@
 5. Open your .env file and change the database name (projeta_dev)
 7. Run php artisan key:generate
 7. Run php artisan migrate
-8.Run php artisan serve 
 
+8.Run php artisan serve 
 
 
 ## About Laravel
